@@ -1,0 +1,58 @@
+.header {
+  width: 95vw;
+  padding: 30px 0 30px 5vw;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .trait-header {
+    background-color: #FFF;
+    width: 30%;
+    height: 1px;
+    margin: 0 -30px 0 auto;
+    opacity: .3;
+    z-index: 1000;
+  }
+
+  .navbar {
+    width: 50%;
+    background-color: rgba(50, 50, 50, .2);
+    backdrop-filter: blur(10px);
+    padding: 40px 0 40px 80px;
+
+    .burger {
+      width: 24px;
+      height: 24px;
+      margin: 10px 40px 0 0;
+      cursor: pointer;
+    }
+
+    a {
+      font-family: Barlow;
+      color: white;
+      text-decoration: none;
+      border-bottom: 3px solid transparent;
+      margin: 0 40px 0 0;
+      padding: 0 0 36px 0;
+      font-size: 14px;
+      font-family: "Barlow Condensed";
+      font-size: 16px;
+      letter-spacing: 3px;
+      opacity: .8;
+
+      &:visited {
+        color: white;
+      }
+      &:hover {
+        opacity: 1;
+      }
+      &.active {
+        border-color: white;
+      }
+    }
+  }
+}

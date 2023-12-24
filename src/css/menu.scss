@@ -1,0 +1,32 @@
+.menu {
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  backdrop-filter: blur(10px);
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin: 20px 0;
+    opacity: .8;
+    font-weight: 700;
+
+    &:hover, &.active {
+      opacity: 1;
+    }
+  }
+
+  .close-menu {
+    align-self: end;
+    width: 20px;
+    height: 20px;
+    margin: 30px;
+    cursor: pointer;
+  }
+}

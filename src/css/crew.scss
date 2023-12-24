@@ -1,0 +1,110 @@
+.main-crew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .crew-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    padding-left: 50px;
+    .title {
+      color: white;
+      letter-spacing: 2px;
+      .title-span {
+        opacity: .5;
+        margin-right: 5px;
+      }
+    }
+    .container-desc {
+      font-family: 'Bellefair';
+      font-weight: 200;
+      color: white;
+      .role {
+        color: white;
+        margin: 80px 0 0 0;
+        font-size: 28px;
+        text-transform: uppercase;
+      }
+      h1 {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 49px;
+        letter-spacing: 2px;
+      }
+      p {
+        opacity: .5;
+      }
+    }
+    .change-crew {
+      display: flex;
+      margin-top: 70px;
+      .button-change {
+        background-color: white;
+        padding: 7px;
+        border-radius: 50%;
+        margin-right: 15px;
+        opacity: .5;
+        cursor: pointer;
+
+        &.active {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+
+  .crew-right {
+    img {
+      width: 350px;
+      height: 450px;
+    }
+  }
+}
+
+
+@media (max-width: 849px) {
+  .main-crew {
+    text-align: center;
+  }
+  .title {
+    margin: 0 !important;
+  }
+  .role {
+    margin: 40px 0 0 0 !important;
+  }
+  .change-crew {
+    margin: 30px !important;
+    justify-content: center;
+  }
+  .crew-right {
+    img {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width:550px) {
+  .crew-left {
+    padding: 0 !important;
+
+    .title {
+      margin-top: 30px !important;
+    }
+    .container-desc {
+      margin-top: 0px !important;
+      .role {
+        font-size: 18px !important;
+      }
+      h1 {
+        font-size: 32px !important;
+      }
+    }
+  }
+  .crew-right img {
+    max-width: 250px;
+    max-height: 350px;
+    margin-top: 10px !important;
+  }
+}

@@ -1,0 +1,36 @@
+@import "medias";
+@import "fonts";
+@import "navbar";
+@import "menu";
+@import "home";
+@import "backgrounds";
+@import "destination";
+@import "crew";
+@import "technology";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: 'Bellefair';
+  color: white;
+}
+p {
+  color: #D0D6F9;
+}
+
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background: white;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 3px;
+  border: 2px solid black;
+}
