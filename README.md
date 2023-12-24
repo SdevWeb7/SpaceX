@@ -10,8 +10,8 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github - Code source](https://github.com/SdevWeb7/SpaceX)
+- Live Site URL: [Github - Pages](https://sdevweb7.github.io/SpaceX)
 
 
 ### Built with
